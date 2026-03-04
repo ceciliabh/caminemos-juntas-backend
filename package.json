@@ -2,21 +2,7 @@
   "name": "bot-backend",
   "version": "1.0.0",
   "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@google-cloud/dialogflow": "^7.2.0",
-    "dotenv": "^17.2.1",
-    "express": "^5.1.0",
-    "pg": "^8.16.3",
-    "socket.io": "^4.8.1",
-    "uuid": "^11.1.0"
-  },
-  "devDependencies": {},
-  "description": ""
+    "dotenv": "^17.2.1"
+  }
 }
