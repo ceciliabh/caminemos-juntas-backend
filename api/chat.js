@@ -2,7 +2,8 @@ export default async function handler(req, res) {
 
   const allowedOrigins = [
     "https://caminemosjuntasproject.vercel.app",
-    "https://www.caminemosjuntas.com/"
+    "https://caminemosjuntas.com",
+    "https://www.caminemosjuntas.com"
   ];
 
   const origin = req.headers.origin;
